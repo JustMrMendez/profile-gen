@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Profile Builder</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="inputs">
+            <label for="coverCheckbox">
+                <span>Include Cover</span>
+                <input type="checkbox" id="coverCheckbox">
+                <div>
+                    <span class="status status-no">No</span>
+                    <span class="status status-yes">Yes</span>
+                </div>
+            </label>
+            <label for="nameInput">
+                <span>Name</span>
+                <input type="text" id="nameInput" placeholder="Name">
+            </label>
+            <label for="lastNameInput">
+                <span>Last Name</span>
+                <input type="text" id="lastNameInput" placeholder="Last Name">
+            </label>
+            <label for="smPositionInput">
+                <span>S.M. Position</span>
+                <input type="text" id="smPositionInput" placeholder="S.M. Position">
+            </label>
+            <label for="twitterInput">
+                <span>Twitter</span>
+                <input type="text" id="twitterInput" placeholder="Twitter">
+            </label>
+            <label for="githubInput">
+                <span>Github</span>
+                <input type="text" id="githubInput" placeholder="Github">
+            </label>
+            <label for="linkedinInput">
+                <span>LinkedIn</span>
+                <input type="text" id="linkedinInput" placeholder="LinkedIn">
+            </label>
+            <label for="instagramInput">
+                <span>Instagram</span>
+                <input type="text" id="instagramInput" placeholder="Instagram">
+            </label>
+            <label for="roleInput">
+                <span>Role</span>
+                <input type="text" id="roleInput" placeholder="Role">
+            </label>
+            <label for="cityInput">
+                <span>City</span>
+                <input type="text" id="cityInput" placeholder="City">
+            </label>
+            <label for="countryInput">
+                <span>Country</span>
+                <input type="text" id="countryInput" placeholder="Country">
+            </label>
+            <label for="imageUrlInput">
+                <span>Image URL</span>
+                <input type="text" id="imageUrlInput" placeholder="Image URL">
+            </label>
+        </div>
+        <div class="profile">
+            <div class="cover">
+                <img src="cover.png" alt="Cover Image" id="coverImage">
+            </div>
+            <div class="avatar">
+                <img src="me.jpg" alt="Profile Picture" id="profileImage">
+            </div>
+            <h2 id="profileName">Ramon Dylan</h2>
+            <p id="profileRole">Web Developer</p>
+            <p id="profileLocation">Miami, USA</p>
+            <div class="social-icons">
+                <!-- Add your social media icons here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
